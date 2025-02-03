@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <!-- <include name="regression"></include>
+             <include name="smoke"></include>-->
+            <exclude name="regression"></exclude>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ekhan/IdeaProjects/actitime-automation/src/test/java/TestNG/GroupingTC/GroupingEx.java">
+        <classes>
+            <class name="TestNG.GroupingTC.GroupingEx"></class>
+        </classes>
+    </test>
+</suite>

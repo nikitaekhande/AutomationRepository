@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" thread-count="2" name="parallelTesting">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ekhan/IdeaProjects/actitime-automation/src/test/java/TestNG/parallelTesting">
+        <classes>
+            <class name="TestNG.parallelTesting.parallelEX3"></class>
+            <class name="TestNG.parallelTesting.parallelEx1"></class>
+            <class name="TestNG.parallelTesting.parallelEx2"></class>
+        </classes>
+    </test>
+</suite>

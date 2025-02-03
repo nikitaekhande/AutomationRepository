@@ -1,0 +1,5 @@
+WinWaitActive("Open","",10)
+Sleep(2000)
+Send(C:\Users\ekhan\IdeaProjects\actitime-automation\Fileupload\UploadData.txt")
+Sleep(2000)
+Send("{ENTER}")

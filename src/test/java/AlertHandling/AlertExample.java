@@ -1,0 +1,23 @@
+package AlertHandling;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class AlertExample {
+    public static void main(String args[]){
+        System.out.println("start programms");
+        String bName = "ch";
+        String url = "https://demoqa.com/alerts";
+        GenericUtility gu = new GenericUtility();
+        WebDriver driver = gu.startUp(bName ,url);
+        driver.findElement(By.cssSelector("button[id='promtButton']")).click();
+        Alert alt = driver.switchTo().alert();
+        String txt = alt.getText();
+        System.out.println("Alert text : " + txt);
+        alt.sendKeys("Morning Automation Batch...!!!");
+        alt.accept();
+        System.out.println("ends programs ");
+    }
+}

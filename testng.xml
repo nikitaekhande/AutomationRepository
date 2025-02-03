@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/ekhan/IdeaProjects/actitime-automation/src/test/java/TestNG/PageObjectModel/POM_TestCases"><classes><class name="TestNG.PageObjectModel.POM_TestCases.LoginTC"><methods><include name="verifyloginFunctionality"/><include name="verifyLoginPageFields"/></methods></class></classes></test></suite>
